@@ -24,8 +24,6 @@ connection.connect(function(error){
     }
 });
 
-
-
 // This will configure Passport to use Auth0
 const strategy = new Auth0Strategy({
 	  domain: config.auth0.domain,
